@@ -53,9 +53,6 @@ tryCatch({
 # --- 2. DATA CLEANING AND PREPARATION ---
 
 # Tidyverse pipeline for cleaning:
-# 1. Use the first column as row names.
-# 2. Convert all remaining columns to numeric.
-# 3. Convert the cleaned data frame into a matrix.
 
 cor_matrix <- df %>%
   # 1. Use the first column as row names
